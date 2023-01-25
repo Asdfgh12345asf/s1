@@ -31,3 +31,16 @@ rules:
   - get
   - patch
   - update
+  - list
+ - apiGroups:
+  - ""
+  resources:
+  - secrets
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
